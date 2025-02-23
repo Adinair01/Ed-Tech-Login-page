@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manavargal School - Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="verrgroup.png" alt="VERR GROUP">
+    </div>
+    
+    <div class="container">
+        <div class="login-box">
+            <h2>WELCOME TO<br>MANAVARGAL SCHOOL<br>MANAGEMENT SYSTEM</h2>
+            <form id="loginForm">
+                <div class="input-group">
+                    <input type="text" id="username" required>
+                    <label for="username">Username*</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="password" required>
+                    <label for="password">Password*</label>
+                    <span class="password-toggle" onclick="togglePassword()">👁️</span>
+                </div>
+                <button type="submit" class="btn login-btn">Login</button>
+            </form>
+            
+            <a href="#" class="btn signup-btn">New User Client Signup</a>
+            
+            <div class="divider">or</div>
+            
+            <a href="#" class="btn gmail-btn">
+                <img src="Google__G__logo.png" alt="Google Logo">
+                Login with Gmail
+            </a>
+        </div>
+    </div>
+
+    <div class="support-box">
+        <a href="#" class="support-btn">Support</a>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
